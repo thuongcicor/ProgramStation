@@ -1,0 +1,7 @@
+pyinstaller --name "ToolProgramEpitome" --noconsole --icon=LogoTeamTEST.ico --add-data="LogoTeamTEST.ico;." main.py ui_login.py ui_programV2.py icons_rc.py
+
+pyinstaller --onefile --name "ToolProgramEpitome" --noconsole --icon=LogoTeamTEST.ico --add-data="LogoTeamTEST.ico;." main.py ui_login.py ui_programV2.py icons_rc.py
+
+pyinstaller --onefile --name "VideoSave" --noconsole --icon=LogoTeamTEST.ico --add-data="LogoTeamTEST.ico;." main.py
+
+pyside6-uic xxx.ui > ui_xxx.py
